@@ -1,0 +1,368 @@
+{
+  "data": {
+    "practice_id": "dd0fb937-7297-4712-a47b-9da5a22252fc",
+    "practice_questions": [
+      
+      {
+        "id": "7094e85d-068a-4f01-8dec-e20a96b8fae2",
+        "sequence": 2,
+        "statement": "Find the square root of 324 using prime factorization.",
+        "type": "MultipleChoiceQuestion",
+        "choices": [
+          {
+            "id": "29661377-a95d-4145-b02b-6e3ad4d6e913",
+            "label": "A",
+            "statement": "$16$"
+          },
+          {
+            "id": "263eda85-35d9-484b-9370-145e168ea7d0",
+            "label": "B",
+            "statement": "$17$"
+          },
+          {
+            "id": "e462222c-9595-4df2-ac21-407df0a82e41",
+            "label": "C",
+            "statement": "$18$"
+          },
+          {
+            "id": "88ce64da-149a-4e53-b425-6660a77060ea",
+            "label": "D",
+            "statement": "$19$"
+          }
+        ],
+        "submission": {
+          "duration": 6000,
+          "action": "answer",
+          "choices": [
+            {
+              "id": "263eda85-35d9-484b-9370-145e168ea7d0"
+            }
+          ]
+        },
+        "solution": {
+          "statement": "3 + 2 + 4 = 9, divisible by 9.\u003cbr\u003e\n\u003cbr\u003e\n$\\therefore $ 324 is divisible by 9.\u003cbr\u003e\n\u003cbr\u003e\n$\\text{In fact, }\\cfrac{324}{9}=36.$\u003cbr\u003e\n\u003cbr\u003e\n$\\therefore 324=9\\times 36$\u003cbr\u003e\n\u003cbr\u003e\n$\\text{i.e., } 324=9\\times6\\times 6$\u003cbr\u003e\n\u003cbr\u003e\n$\\text{i.e., } 324=(3\\times 3) \\times(2\\times 3)\\times (2\\times 3)$\u003cbr\u003e\n\u003cbr\u003e\n$\\text{i.e., } 324=(3\\times 3\\times 2) \\times (3\\times 3\\times 2)$\u003cbr\u003e\n\u003cbr\u003e\n$\\text{i.e., } 324=(3\\times 3\\times 2)^2$\u003cbr\u003e\n\u003cbr\u003e\n$\\text{i.e., } 324=(18)^2$\u003cbr\u003e\n\u003cbr\u003e\n$\\implies \\sqrt{324}=\\sqrt{18^2}$\u003cbr\u003e\n\u003cbr\u003e\n\\(\\implies \\sqrt{324}=18\\)",
+          "choices": [
+            {
+              "id": "e462222c-9595-4df2-ac21-407df0a82e41"
+            }
+          ],
+          "video": null
+        }
+      },
+      {
+        "id": "6f48b284-c0ba-4fdf-a36d-61c69c2ee5e5",
+        "sequence": 3,
+        "statement": "What digits must be added or substracted from $21435$ to make it divisible by $15$?",
+        "type": "MultiSelectQuestion",
+        "choices": [
+          {
+            "id": "6148adc5-7148-4fe4-8339-aca83608fd83",
+            "label": "A",
+            "statement": "$0$"
+          },
+          {
+            "id": "58809663-f145-462a-96e9-6a7be0490667",
+            "label": "B",
+            "statement": "$5$"
+          },
+          {
+            "id": "88e41c9b-fbbc-4205-a5ca-786f4693b4f0",
+            "label": "C",
+            "statement": "$7$"
+          },
+          {
+            "id": "40c65ea5-8eae-458b-a45d-db5c6400e907",
+            "label": "D",
+            "statement": "None of the above."
+          }
+        ],
+        "submission": {
+          "duration": 13000,
+          "action": "answer",
+          "choices": [
+            {
+              "id": "58809663-f145-462a-96e9-6a7be0490667"
+            }
+          ]
+        },
+        "solution": {
+          "statement": "For a number to be divisible by $15$, it must be divisible by $3$ as well as $5$.\u003cbr\u003e\n\u003cbr\u003e\nFor a number to be divisible by $3$, sum of its digits must be divisible by $3$.\u003cbr\u003e\n\u003cbr\u003e\nAlso, if the number has $0$ or $5$ at it's unit place then the number is divisible by $5$.\u003cbr\u003e\n\u003cbr\u003e\nClearly,\u0026nbsp;the given number $21435$ is divisible by $15$ because sum of it's digit is $15$ which is amultiple of $3$ and there is $5$ at unit place which make it divisible by $5$ as well.\u003cbr\u003e\n\u003cbr\u003e\nHence, we can add or substract $0$ or a multiple of 15 in the number to make it divisible by 15.",
+          "choices": [
+            {
+              "id": "6148adc5-7148-4fe4-8339-aca83608fd83"
+            }
+          ],
+          "video": null
+        }
+      },
+      {
+        "id": "9bba6012-df93-488e-8324-fd4aca8cb409",
+        "sequence": 4,
+        "statement": "I: All prime numbers are odd.\u003cbr\u003e\n\u003cbr\u003e\nII: All even numbers greater than 2 are composite.\u003cbr\u003e\n\u003cbr\u003e\nIII: 48 is a multiple of 4.\u003cbr\u003e\n\u003cbr\u003e\nChoose the correct option.",
+        "type": "MultipleChoiceQuestion",
+        "choices": [
+          {
+            "id": "3b50a25f-baa8-451b-8aaf-99d5f2998d45",
+            "label": "A",
+            "statement": "All the statements are correct."
+          },
+          {
+            "id": "4315be13-e67d-47bd-8858-4ec5b6704bf0",
+            "label": "B",
+            "statement": "Only II and III are correct."
+          },
+          {
+            "id": "6738d9e6-95dd-434e-9e8a-00ed8b8b4d24",
+            "label": "C",
+            "statement": "Only I and II are correct."
+          },
+          {
+            "id": "849f61c9-de9c-4c87-8a62-cb58f8d1ef4a",
+            "label": "D",
+            "statement": "Only I and III are correct."
+          }
+        ],
+        "submission": {
+          "duration": 14000,
+          "action": "answer",
+          "choices": [
+            {
+              "id": "6738d9e6-95dd-434e-9e8a-00ed8b8b4d24"
+            }
+          ]
+        },
+        "solution": {
+          "statement": "\n\u003cp\u003eLet us look\u0026nbsp;at\u0026nbsp;the statements one by one.\u003c/p\u003e\n\n\u003cp\u003e\u003cu\u003eI: All prime numbers are odd.\u003c/u\u003e\u0026nbsp;\u003c/p\u003e\n\n\u003cp\u003eWe know that 2 is a prime number, but it is even.\u003c/p\u003e\n\n\u003cp\u003eHence, this statement is wrong.\u003c/p\u003e\n\n\u003cp\u003e\u003cu\u003eII: All even numbers greater than 2 are composite.\u003c/u\u003e\u0026nbsp;\u003c/p\u003e\n\n\u003cp\u003eAll even numbers greater than 2 have 2 as a factor.\u003cbr\u003e\n\u003cbr\u003e\nThus, every even number greater than 2 has 2 as a factor, other than 1 and the number itself.\u003cbr\u003e\n\u003cbr\u003e\nThus, every even number greater than 2 is composite.\u003cbr\u003e\n\u003cbr\u003e\nThus, this statement is true.\u003c/p\u003e\n\u003cu\u003eIII: 48 is a multiple of 4.\u003c/u\u003e\u003cbr\u003e\n\u003cbr\u003e\n$4\\times 12 = 48$\u003cbr\u003e\n\u003cbr\u003e\nSince 48 can be expressed as the product of 4 and 12, it is a multiple of both 4 and 12.\u003cbr\u003e\n\u003cbr\u003e\nThus, this statement is correct.\u003cbr\u003e\n\u003cbr\u003e\n\\(\\therefore\\) Only II and III are correct.",
+          "choices": [
+            {
+              "id": "4315be13-e67d-47bd-8858-4ec5b6704bf0"
+            }
+          ],
+          "video": {
+            "id": "122eb271-f8fe-429a-a18c-484538ebfbac",
+            "created_at": "2021-07-09T09:15:05.946612Z",
+            "updated_at": "2022-10-28T10:09:59.295025Z",
+            "status": "active",
+            "source_id": "4af8433d-42f3-4bbe-9bf6-f81aa370097a",
+            "source_video_id": "624413",
+            "title": "Fact Revision",
+            "starts_at": 175300,
+            "ends_at": 297900,
+            "visibility": "journey",
+            "raw_video_id": "efc15c0a-a429-4c3a-961e-7ebf884e5f68",
+            "duration": 122600,
+            "seeks_at": 175300,
+            "url": "",
+            "thumbnails": [
+              {
+                "id": "e8c3ee45-f28c-4542-9b16-7dce514ff3c8",
+                "created_at": "2021-07-13T19:22:53.328985Z",
+                "updated_at": "2022-10-28T10:09:59.300013Z",
+                "status": "active",
+                "raw_video_id": "efc15c0a-a429-4c3a-961e-7ebf884e5f68",
+                "url": "https://df0b18phdhzpx.cloudfront.net/video_thumbnails/production/original/624413.jpg",
+                "seeks_at": 175300,
+                "sequence": 1
+              },
+              {
+                "id": "e08b3338-4384-4419-932e-d57d01518819",
+                "created_at": "2022-01-17T12:31:25.241815Z",
+                "updated_at": "2022-10-28T10:09:59.35323Z",
+                "status": "active",
+                "raw_video_id": "efc15c0a-a429-4c3a-961e-7ebf884e5f68",
+                "url": "https://df0b18phdhzpx.cloudfront.net/video_thumbnails/production/original/624414.jpg",
+                "seeks_at": 297800,
+                "sequence": 1
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": "8b987bb7-10f4-4b95-9141-4bf1b626780f",
+        "sequence": 5,
+        "statement": "Find the greatest common divisor of 4 and 12 using the prime factorization method.",
+        "type": "MultipleChoiceQuestion",
+        "choices": [
+          {
+            "id": "96b8acde-d9ac-444c-8855-cf956017580c",
+            "label": "A",
+            "statement": "1"
+          },
+          {
+            "id": "8a3df113-9669-47d2-bcb9-c8f811859bd4",
+            "label": "B",
+            "statement": "2"
+          },
+          {
+            "id": "f185e73a-d272-4aeb-9b5f-84fcd7d7506c",
+            "label": "C",
+            "statement": "8"
+          },
+          {
+            "id": "57207e87-0681-4e89-93d7-d447788a1f73",
+            "label": "D",
+            "statement": "4"
+          }
+        ],
+        "submission": {
+          "duration": 7000,
+          "action": "answer",
+          "choices": [
+            {
+              "id": "57207e87-0681-4e89-93d7-d447788a1f73"
+            }
+          ]
+        },
+        "solution": {
+          "statement": "Let us prime factorize the given numbers.\u003cbr\u003e\n\u003cbr\u003e\n\\(4=\\color{black}{2}\\times \\color{lightgreen}{2}\\)\u003cbr\u003e\n\u003cbr\u003e\n\\(12=\\color{black}{2}\\times \\color{lightgreen}{2}\\times 3\\)\u003cbr\u003e\n\u003cbr\u003e\n\\(\\therefore \\text{GCD of 4 and 12}=\\color{black}{2}\\times \\color{lightgreen}{2}=4\\)\u0026nbsp;",
+          "choices": [
+            {
+              "id": "57207e87-0681-4e89-93d7-d447788a1f73"
+            }
+          ],
+          "video": null
+        }
+      },
+      {
+        "id": "d719542f-f81e-4799-bdf2-9f617077724e",
+        "sequence": 6,
+        "statement": "Given that two number have no factors in common other than 1. Which of the following will be least common multiple of both numbers?\u0026nbsp;\u003cbr\u003e\nSolve using ladder diagram.",
+        "type": "MultipleChoiceQuestion",
+        "choices": [
+          {
+            "id": "e6e0852b-3fd2-4127-aa17-df1a9744d0c4",
+            "label": "A",
+            "statement": "$x+y$"
+          },
+          {
+            "id": "33be912b-4fe0-4425-89eb-c9613c303cfa",
+            "label": "B",
+            "statement": "$x^y$"
+          },
+          {
+            "id": "8b1832c9-6ba9-4820-9d3c-3173da7d26b3",
+            "label": "C",
+            "statement": "$xy$"
+          },
+          {
+            "id": "c37d7400-b194-4469-9dcf-865ce5355e9d",
+            "label": "D",
+            "statement": "$\\cfrac{x}{y}$"
+          }
+        ],
+        "submission": {
+          "duration": 19000,
+          "action": "answer",
+          "choices": [
+            {
+              "id": "e6e0852b-3fd2-4127-aa17-df1a9744d0c4"
+            }
+          ]
+        },
+        "solution": {
+          "statement": "Let two numbers having no factor in common are $x$ and $y$ respectively.\u003cbr\u003e\n\u003cbr\u003e\n$\\therefore$ According to ladder diagram,\u003cbr\u003e\n\u003cimg alt=\"\" height=\"140\" src=\"https://df0b18phdhzpx.cloudfront.net/ckeditor_assets/pictures/1338002/original_a.png\" width=\"150\"\u003eHence, LCM $=x\\times y=xy$",
+          "choices": [
+            {
+              "id": "8b1832c9-6ba9-4820-9d3c-3173da7d26b3"
+            }
+          ],
+          "video": null
+        }
+      },
+      {
+        "id": "3fbb812f-c451-4548-8ef0-f15da58a9ed1",
+        "sequence": 7,
+        "statement": "How many rose bushes should Ruth buy so that she can plant them in 10 rows with an equal number of rose bushes in each row ?\u0026nbsp;",
+        "type": "MultipleChoiceQuestion",
+        "choices": [
+          {
+            "id": "470a1d2e-6489-4155-a026-ee90c3d62153",
+            "label": "A",
+            "statement": "102"
+          },
+          {
+            "id": "42e1c229-e974-4394-af9f-6e83bc187cf5",
+            "label": "B",
+            "statement": "125"
+          },
+          {
+            "id": "fef1a650-1866-4307-a8f9-ac217ec62765",
+            "label": "C",
+            "statement": "1,000"
+          },
+          {
+            "id": "e7d84d40-1536-4e86-8756-28d58c5783e7",
+            "label": "D",
+            "statement": "505"
+          }
+        ],
+        "submission": {
+          "duration": 6000,
+          "action": "answer",
+          "choices": [
+            {
+              "id": "470a1d2e-6489-4155-a026-ee90c3d62153"
+            }
+          ]
+        },
+        "solution": {
+          "statement": "\u003cp\u003e1,000 has the digit \"0\" in the end so, it is the only option divisible by 10.\u003cbr\u003e\n$\\therefore$ Ruth can plant 1,000 rose bushes in 10 rows\u0026nbsp;with equal\u0026nbsp;number of rose bushes in each row i.e. 100.\u003c/p\u003e\n",
+          "choices": [
+            {
+              "id": "fef1a650-1866-4307-a8f9-ac217ec62765"
+            }
+          ],
+          "video": null
+        }
+      },
+      {
+        "id": "ba6f85a4-5074-40f0-950e-c8564a835515",
+        "sequence": 8,
+        "statement": "Connor organized a house party and ordered pizzas.\u003cbr\u003e\nThere was a total of 222 slices of pizza. How many slices did Connor give to each of his guest, so that no slice was left behind?",
+        "type": "MultipleChoiceQuestion",
+        "choices": [
+          {
+            "id": "e833c9e6-7afb-482c-ba6e-8f165f42ab73",
+            "label": "A",
+            "statement": "3"
+          },
+          {
+            "id": "9271eb6d-0b37-4508-bd07-22841d7f72e7",
+            "label": "B",
+            "statement": "4"
+          },
+          {
+            "id": "ad3a14ad-e9cc-4c35-9249-92158b9a0e42",
+            "label": "C",
+            "statement": "5"
+          },
+          {
+            "id": "ca2f9ed5-b25b-446d-89ee-d93d87f7798b",
+            "label": "D",
+            "statement": "8"
+          }
+        ],
+        "submission": {
+          "duration": 8000,
+          "action": "answer",
+          "choices": [
+            {
+              "id": "9271eb6d-0b37-4508-bd07-22841d7f72e7"
+            }
+          ]
+        },
+        "solution": {
+          "statement": "Among the given options, only 3 is exactly divisible by 222.\u003cbr\u003e\nWe can check this by applying the divisiblity rule of 3.\u003cbr\u003e\n\u003cbr\u003e\n\u003cem\u003eIf the sum of the digits of a number is divisible by 3, then the number is divisible by 3. \u003c/em\u003e\u003cbr\u003e\n\u003cbr\u003e\n222:\u0026nbsp;\u003cbr\u003e\n2+2+2 = 6, divisible by 3.\u0026nbsp;\u003cbr\u003e\nThus, 222 is divisible by 3.\u003cbr\u003e\n\u003cbr\u003e\nHence, Connor gave 3 slices of pizza to each of his guest.",
+          "choices": [
+            {
+              "id": "e833c9e6-7afb-482c-ba6e-8f165f42ab73"
+            }
+          ],
+          "video": null
+        }
+      }
+    ]
+  },
+  "message": "Request Successful"
+}
